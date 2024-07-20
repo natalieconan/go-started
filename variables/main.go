@@ -6,7 +6,8 @@ import ("fmt")
 Types
 - int
 - int8, int16, int32, int64
-- float32
+- uint8, uint16, uint32, uint64
+- float32 (-1.7e+38 -> 1.7e+38), float64 (-1.7e+308 -> 1.7e+308)
 - string
 - bool
 **/
