@@ -106,5 +106,10 @@ func testCopySlice() {
   fmt.Printf("Copy Numbers : %v\n", copyNumbers)
 }
 
+func testMakeFunction() {
+  var intSlice []int32 = make([]int32, 3, 10) // length, capacity
+  fmt.Println(intSlice)
+}
+
 func main() {
 }
